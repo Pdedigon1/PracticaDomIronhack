@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Información sobre coches</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CochesC.css">
+</head>
+<body>
+<header>
+  <h1>Información sobre coches</h1>
+</header>
+
+<nav>
+  <ul class="navbar">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="Marcas.html">Marcas</a></li>
+    <li><a href="index.html">Tipos</a></li>
+    <li><a href="index.html">Otros</a></li>
+  </ul>
+</nav>
+
+<section id="inicio">
+  <h2>Todo sobre coches</h2>
+  <p>En esta página encontrarás todo tipo de información relacionada con coches, desde marcas populares hasta diferentes tipos de vehículos. Es una web creada con mucha pasión, adelante y esperamos que disfrutes de todo el contenido.</p>
+</section>
+
+<section id="nuevo">
+  <h2>Próximos lanzamientos</h2>
+  <p>Los fabricantes de automóviles lanzan cientos de nuevos modelos de coches cada año. En algunas ocasiones se trata de automóviles completamente renovados, en otras, sin embargo, se limitan a pequeños cambios y actualizaciones, ya sean mecánicas o estéticas.</p>
+</section>
+
+<section id="proximos-lanzamientos">
+  <div>
+    <h4>Audi Landjet</h4>
+    <img id="foto" src="Imagenes/audiLandjet1.jpg" alt="Audi Landjet"  data-index="1">
+    <p>El modelo eléctrico que debutará en 2024 y que se convertirá en el adiós definitivo del Audi A8. Un nuevo concepto para la berlina de lujo y representación, con un diseño diferente del de sus competidores, eléctrico y con avanzada conducción autónoma.</p>
+  </div>
+  <div>
+    <h4>Alpine A110 Targa</h4>
+    <img id="coche-img" src="Imagenes/Alpine.jpg" alt="Coche 2">
+    <p>La gama del deportivo francés se ampliará en 2024 con una atractiva variante. El Alpine A110 ofrecerá una opción Targa que aumentará el atractivo para los clientes, y potenciando sus ventas.</p>
+  </div>
+  <div>
+    <h4>Mercedes-AMG ONE</h4>
+    <img src="Imagenes/MercedesAmg.jpg" alt="Coche 3">
+    <p>Su nombre lo dice todo, Mercedes-AMG ONE. El uno, el primero, el más potente, un hypercar muy exclusivo con tecnología de Fórmula 1 e híbrida que supera los 1000 CV de potencia máxima, homologado para calle.</p>
+  </div>
+</section>
+
+
+
+<section id="comentarios">
+  <h2>Comentarios</h2>
+  <form id="comment-form">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" required>
+    <label for="comment">Comentario:</label>
+    <textarea id="comment" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="comment-list">
+    <!-- Aquí se mostrarán los comentarios -->
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
